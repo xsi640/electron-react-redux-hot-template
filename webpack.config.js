@@ -42,7 +42,7 @@ module.exports = {
                 test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
                 loader: 'url-loader',
                 query: {
-                    limit: 1,
+                    limit: 4096,
                     name: './public/fonts/[hash].[ext]'
                 }
             }
